@@ -1,0 +1,102 @@
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+    gap: 30px;
+}
+
+
+.pricing-container > * {
+flex-basis: 200px;
+flex-shrink: 1;
+flex-grow: 0;
+align-content: center;
+}
+
+.plan-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.plan-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: black
+}
+
+.pricing-plan {
+    background-color: #668299;
+    color: black;
+    border: 5px solid #666699;
+    border-radius: 10px;
+    padding: 20px;
+     
+}
+
+button {
+    background-color: #f648bf;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    border: 5px solid #666699;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1250px) {
+    .pricing-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .plan-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+    .pricing-container > * {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    }
+
+    .plan-price {
+        font-size: 24px;
+        font-weight: bold;
+        color: black
+    }
+    
+    .pricing-plan {
+        background-color: #668299;
+        color: black;
+        border: 5px solid #666699;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    
+    button {
+        background-color: #f648bf;
+        color: white;
+        width: 50%;
+        margin-left: 25%;
+        border: 5px solid #666699;
+        padding: 10px 0px;
+        border-radius: 10px;
+    }
+    
+}
